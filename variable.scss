@@ -1,0 +1,10 @@
+$table_border:1px solid gray;
+$table_padding:2px 5px;
+$table_font:"Papyrus";
+$table_style:1px solid #ddd;
+th,td,tr {
+    border:$table_border;
+    padding:$table_padding;
+    font-family:$table_font;
+    border-bottom: $table_style;
+}

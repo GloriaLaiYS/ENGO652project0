@@ -1,0 +1,9 @@
+%h2{
+    color:darkcyan;
+    text-align: left;
+    font-size: 28px;
+}
+.mid{
+    @extend %h2;
+    background-color:beige ;
+}
